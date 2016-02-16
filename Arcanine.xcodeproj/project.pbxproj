@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6654511F1C72F11E00C6C92A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6654511E1C72F11E00C6C92A /* AppDelegate.swift */; };
+		665451211C72F11E00C6C92A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665451201C72F11E00C6C92A /* ViewController.swift */; };
+		665451241C72F11E00C6C92A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 665451221C72F11E00C6C92A /* Main.storyboard */; };
+		665451261C72F11E00C6C92A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 665451251C72F11E00C6C92A /* Assets.xcassets */; };
+		665451291C72F11E00C6C92A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 665451271C72F11E00C6C92A /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		665451191C72F11E00C6C92A /* Arcanine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Arcanine.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6654511D1C72F11E00C6C92A /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; name = .gitignore; path = ../.gitignore; sourceTree = "<group>"; };
+		6654511E1C72F11E00C6C92A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		665451201C72F11E00C6C92A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		665451231C72F11E00C6C92A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		665451251C72F11E00C6C92A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		665451281C72F11E00C6C92A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6654512A1C72F11E00C6C92A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		665451161C72F11E00C6C92A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		665451101C72F11E00C6C92A = {
+			isa = PBXGroup;
+			children = (
+				6654511B1C72F11E00C6C92A /* Arcanine */,
+				6654511A1C72F11E00C6C92A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6654511A1C72F11E00C6C92A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				665451191C72F11E00C6C92A /* Arcanine.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6654511B1C72F11E00C6C92A /* Arcanine */ = {
+			isa = PBXGroup;
+			children = (
+				6654511E1C72F11E00C6C92A /* AppDelegate.swift */,
+				665451201C72F11E00C6C92A /* ViewController.swift */,
+				665451221C72F11E00C6C92A /* Main.storyboard */,
+				665451251C72F11E00C6C92A /* Assets.xcassets */,
+				665451271C72F11E00C6C92A /* LaunchScreen.storyboard */,
+				6654512A1C72F11E00C6C92A /* Info.plist */,
+				6654511C1C72F11E00C6C92A /* Supporting Files */,
+			);
+			path = Arcanine;
+			sourceTree = "<group>";
+		};
+		6654511C1C72F11E00C6C92A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6654511D1C72F11E00C6C92A /* .gitignore */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		665451181C72F11E00C6C92A /* Arcanine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6654512D1C72F11E00C6C92A /* Build configuration list for PBXNativeTarget "Arcanine" */;
+			buildPhases = (
+				665451151C72F11E00C6C92A /* Sources */,
+				665451161C72F11E00C6C92A /* Frameworks */,
+				665451171C72F11E00C6C92A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Arcanine;
+			productName = Arcanine;
+			productReference = 665451191C72F11E00C6C92A /* Arcanine.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		665451111C72F11E00C6C92A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Adam Bell";
+				TargetAttributes = {
+					665451181C72F11E00C6C92A = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 665451141C72F11E00C6C92A /* Build configuration list for PBXProject "Arcanine" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 665451101C72F11E00C6C92A;
+			productRefGroup = 6654511A1C72F11E00C6C92A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				665451181C72F11E00C6C92A /* Arcanine */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		665451171C72F11E00C6C92A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				665451291C72F11E00C6C92A /* LaunchScreen.storyboard in Resources */,
+				665451261C72F11E00C6C92A /* Assets.xcassets in Resources */,
+				665451241C72F11E00C6C92A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		665451151C72F11E00C6C92A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				665451211C72F11E00C6C92A /* ViewController.swift in Sources */,
+				6654511F1C72F11E00C6C92A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		665451221C72F11E00C6C92A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				665451231C72F11E00C6C92A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		665451271C72F11E00C6C92A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				665451281C72F11E00C6C92A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6654512B1C72F11E00C6C92A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6654512C1C72F11E00C6C92A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6654512E1C72F11E00C6C92A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Arcanine/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ca.adambell.Arcanine;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6654512F1C72F11E00C6C92A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Arcanine/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ca.adambell.Arcanine;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		665451141C72F11E00C6C92A /* Build configuration list for PBXProject "Arcanine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6654512B1C72F11E00C6C92A /* Debug */,
+				6654512C1C72F11E00C6C92A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6654512D1C72F11E00C6C92A /* Build configuration list for PBXNativeTarget "Arcanine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6654512E1C72F11E00C6C92A /* Debug */,
+				6654512F1C72F11E00C6C92A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 665451111C72F11E00C6C92A /* Project object */;
+}
